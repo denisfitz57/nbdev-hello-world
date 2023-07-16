@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "me1nb.html",
+    "href": "me1nb.html",
+    "title": "nbdev_hello_world",
+    "section": "",
+    "text": "source\n\nsay_hello\n\n say_hello (to)\n\nSay hello to somebody\n\ndir()\n\n['BasicHtmlRenderer',\n 'BasicMarkdownRenderer',\n 'DocmentTbl',\n 'In',\n 'Out',\n 'ShowDocRenderer',\n '_',\n '__',\n '___',\n '__builtin__',\n '__builtins__',\n '__doc__',\n '__loader__',\n '__name__',\n '__package__',\n '__session__',\n '__spec__',\n '_dh',\n '_i',\n '_i1',\n '_i2',\n '_i3',\n '_i4',\n '_ih',\n '_ii',\n '_iii',\n '_oh',\n 'colab_link',\n 'doc',\n 'exit',\n 'get_ipython',\n 'open',\n 'quit',\n 'say_hello',\n 'show_doc',\n 'showdoc_nm']\n\n\n\nsay_hello(\"joe\")\n\n'Hello joe!'\n\n\nprint(dir())\n\nfrom fastcore.test import *\n\n\ntest_eq(say_hello(\"Hamel\"), \"Hello Hamel!\")\n\n\nfrom IPython.display import display,SVG\n\n\ndisplay(SVG('&lt;svg height=\"100\" xmlns=\"http://www.w3.org/2000/svg\"&gt;&lt;circle cx=\"30\" cy=\"50\" r=\"40\"/&gt;&lt;/svg&gt;'))"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "nbdev-hello-world",
+    "section": "",
+    "text": "dir(__package__)\n\n['__bool__',\n '__class__',\n '__delattr__',\n '__dir__',\n '__doc__',\n '__eq__',\n '__format__',\n '__ge__',\n '__getattribute__',\n '__getstate__',\n '__gt__',\n '__hash__',\n '__init__',\n '__init_subclass__',\n '__le__',\n '__lt__',\n '__ne__',\n '__new__',\n '__reduce__',\n '__reduce_ex__',\n '__repr__',\n '__setattr__',\n '__sizeof__',\n '__str__',\n '__subclasshook__']\nThis file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "nbdev-hello-world",
+    "section": "Install",
+    "text": "Install\npip install nbdev_hello_world"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "nbdev-hello-world",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\nsay_hello('kjhsdf')\n\n'Hello kjhsdf!'\n\n\n\nfrom fastcore.test import *\n\n\ntest_eq(say_hello(\"Hamel\"), \"Hello Hamel!\")"
+  }
+]
