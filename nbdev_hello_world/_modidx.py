@@ -5,4 +5,7 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://denisfitz57.github.io',
                 'git_url': 'https://github.com/denisfitz57/nbdev-hello-world',
                 'lib_path': 'nbdev_hello_world'},
-  'syms': {'nbdev_hello_world.core': {'nbdev_hello_world.core.foo': ('core.html#foo', 'nbdev_hello_world/core.py')}}}
+  'syms': { 'nbdev_hello_world.core': {'nbdev_hello_world.core.foo': ('core.html#foo', 'nbdev_hello_world/core.py')},
+            'nbdev_hello_world.hmm': {'nbdev_hello_world.hmm.say_hello': ('me1nb.html#say_hello', 'nbdev_hello_world/hmm.py')},
+            'nbdev_hello_world.nbdev_hello_world': { 'nbdev_hello_world.nbdev_hello_world.say_hello': ( 'me1nb.html#say_hello',
+                                                                                                        'nbdev_hello_world/nbdev_hello_world.py')}}}
